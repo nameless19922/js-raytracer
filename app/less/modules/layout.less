@@ -1,0 +1,24 @@
+﻿.layout {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+
+    &__body {
+        display: block;
+        width: 100%;
+        min-height: 100%;
+        position: relative;
+
+        overflow-x: hidden;
+    }
+
+    &._layout-opened &__body {
+        padding-right: 260px;
+    }
+
+    &__wrapper {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1200px;
+    }
+}
